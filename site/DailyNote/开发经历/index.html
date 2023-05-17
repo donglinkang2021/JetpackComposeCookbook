@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>开发经历 - My Docs</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">My Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Jetpack Compose Code Snippet</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Compose <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">基本控件</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../Compose/%E5%9F%BA%E6%9C%AC%E6%8E%A7%E4%BB%B6/Card/" class="dropdown-item">Card</a>
+</li>
+            
+<li>
+    <a href="../../Compose/%E5%9F%BA%E6%9C%AC%E6%8E%A7%E4%BB%B6/Column/" class="dropdown-item">Column</a>
+</li>
+            
+<li>
+    <a href="../../Compose/%E5%9F%BA%E6%9C%AC%E6%8E%A7%E4%BB%B6/Image/" class="dropdown-item">Image</a>
+</li>
+            
+<li>
+    <a href="../../Compose/%E5%9F%BA%E6%9C%AC%E6%8E%A7%E4%BB%B6/LazyColumn/" class="dropdown-item">LazyColumn</a>
+</li>
+            
+<li>
+    <a href="../../Compose/%E5%9F%BA%E6%9C%AC%E6%8E%A7%E4%BB%B6/Spacer/" class="dropdown-item">Spacer</a>
+</li>
+            
+<li>
+    <a href="../../Compose/%E5%9F%BA%E6%9C%AC%E6%8E%A7%E4%BB%B6/Surface/" class="dropdown-item">Surface</a>
+</li>
+            
+<li>
+    <a href="../../Compose/%E5%9F%BA%E6%9C%AC%E6%8E%A7%E4%BB%B6/Text/" class="dropdown-item">Text</a>
+</li>
+            
+<li>
+    <a href="../../Compose/%E5%9F%BA%E6%9C%AC%E6%8E%A7%E4%BB%B6/TextField/" class="dropdown-item">TextField</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">完整demo</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../Compose/%E5%AE%8C%E6%95%B4demo/%E5%8D%8F%E7%A8%8B%E8%AF%BB%E5%8F%96%E6%96%87%E4%BB%B6/" class="dropdown-item">协程读取文件</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">实用控件</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../Compose/%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B6/Align/" class="dropdown-item">Alignment</a>
+</li>
+            
+<li>
+    <a href="../../Compose/%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B6/AlignRow/" class="dropdown-item">AlignRow</a>
+</li>
+            
+<li>
+    <a href="../../Compose/%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B6/CollectionGrid/" class="dropdown-item">CollectionGrid</a>
+</li>
+            
+<li>
+    <a href="../../Compose/%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B6/FavouriteCollectionCard/" class="dropdown-item">Favorite Collection Card</a>
+</li>
+            
+<li>
+    <a href="../../Compose/%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B6/Scaffold/" class="dropdown-item">Scaffold</a>
+</li>
+            
+<li>
+    <a href="../../Compose/%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B6/SearchBar/" class="dropdown-item">SearchBar</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">实用控件2</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../Compose/%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B62/" class="dropdown-item">README</a>
+</li>
+            
+<li>
+    <a href="../../Compose/%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B62/AlertButton/" class="dropdown-item">AlertButton</a>
+</li>
+            
+<li>
+    <a href="../../Compose/%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B62/CheckItem/" class="dropdown-item">CheckItem</a>
+</li>
+            
+<li>
+    <a href="../../Compose/%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B62/PredictionList/" class="dropdown-item">PredictionList</a>
+</li>
+            
+<li>
+    <a href="../../Compose/%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B62/PreferScreen/" class="dropdown-item">PreferScreen</a>
+</li>
+            
+<li>
+    <a href="../../Compose/%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B62/SearchBar/" class="dropdown-item">SearchBar</a>
+</li>
+            
+<li>
+    <a href="../../Compose/%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B62/TopBar/" class="dropdown-item">TopBar</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">注意</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../Compose/%E6%B3%A8%E6%84%8F/Activity/" class="dropdown-item">Activity</a>
+</li>
+            
+<li>
+    <a href="../../Compose/%E6%B3%A8%E6%84%8F/%E8%BF%9E%E6%8E%A5%E7%BD%91%E7%BB%9C/" class="dropdown-item">连接网络</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">编程技术</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../Compose/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Animation/" class="dropdown-item">Animation</a>
+</li>
+            
+<li>
+    <a href="../../Compose/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/DataStore/" class="dropdown-item">datastore</a>
+</li>
+            
+<li>
+    <a href="../../Compose/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Hilt/" class="dropdown-item">Hilt</a>
+</li>
+            
+<li>
+    <a href="../../Compose/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Modifier/" class="dropdown-item">Modifier</a>
+</li>
+            
+<li>
+    <a href="../../Compose/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Preview/" class="dropdown-item">Preview</a>
+</li>
+            
+<li>
+    <a href="../../Compose/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/ViewModel/" class="dropdown-item">ViewModel</a>
+</li>
+            
+<li>
+    <a href="../../Compose/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/by/" class="dropdown-item">by</a>
+</li>
+            
+<li>
+    <a href="../../Compose/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/remember/" class="dropdown-item">remember</a>
+</li>
+            
+<li>
+    <a href="../../Compose/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/%E5%BF%AB%E6%8D%B7%E9%94%AE/" class="dropdown-item">快捷键</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">DailyNote <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="./" class="dropdown-item active">开发经历</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">askGPT <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../askGPT/%E5%8D%8F%E7%A8%8B%E5%8A%A0%E8%BD%BD%E6%96%87%E4%BB%B6/" class="dropdown-item">协程加载文件</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../../Compose/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/%E5%BF%AB%E6%8D%B7%E9%94%AE/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../../askGPT/%E5%8D%8F%E7%A8%8B%E5%8A%A0%E8%BD%BD%E6%96%87%E4%BB%B6/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="2"><a href="#223" class="nav-link">2.23</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#224" class="nav-link">2.24</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#38" class="nav-link">3.8</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#39" class="nav-link">3.9</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#413" class="nav-link">4.13</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#57" class="nav-link">5.7</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#58" class="nav-link">5.8</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#59" class="nav-link">5.9</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#510" class="nav-link">5.10</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#511" class="nav-link">5.11</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#512513" class="nav-link">5.12~5.13</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#514" class="nav-link">5.14</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#515" class="nav-link">5.15</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#516" class="nav-link">5.16</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#517" class="nav-link">5.17</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#_4" class="nav-link">接下来要做的事情</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h2 id="223">2.23</h2>
+<p>解决连接手机开发问题</p>
+<p><a href="https://blog.csdn.net/qq_41895747/article/details/127779815">(203条消息) 记录Android Studio连接华为(nova)手机鸿蒙系统踩过的坑_android studio 鸿蒙_沉迷单车的追风少年的博客-CSDN博客</a></p>
+<p><a href="https://blog.csdn.net/qq_46941656/article/details/119935227?spm=1001.2101.3001.6650.6&amp;utm_medium=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-6-119935227-blog-127365384.pc_relevant_3mothn_strategy_recovery&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-6-119935227-blog-127365384.pc_relevant_3mothn_strategy_recovery&amp;utm_relevant_index=13">(203条消息) Android Studio连接手机教程_这也太南了趴的博客-CSDN博客_android studio怎么连接手机</a></p>
+<h2 id="224">2.24</h2>
+<p>一定要在虚拟的avd机关闭之后再关闭笔记本，否则会虚拟机会保持原来的状态、而且再次打开android studio会发现打不开虚拟机（一直黑屏）</p>
+<h2 id="38">3.8</h2>
+<h3 id="textviewtextsize">TextView.textSize的设置问题</h3>
+<p>网上没有搜索到正确答案，自己看文档边猜边弄出来的，需求为：希望通过按钮加或减调节字体的大小，</p>
+<ul>
+<li>想法：定义一个<code>var textSize = textView.textSize</code>通过<code>textSize+=1</code>或者<code>textSize-=1</code>的方式操作，最后赋值<code>textView.textSize = textSize</code>，但现实是不可行；</li>
+</ul>
+<h4 id="_1">解决：</h4>
+<p>原因就是在<code>TextView</code>自己的<code>setTextSize</code>方法中就已经自带了放缩<code>scale</code>的功能，而且仅限于第一次传值的时候（即第一次执行<code>textView.textSize = textSize</code>）会这样，所以如果要把<code>.xml</code>的文件信息正确加载出来且可以使得我们传值不受影响，我们就直接先放缩一遍就好了：</p>
+<pre><code class="language-kotlin">val textView = findViewById&lt;TextView&gt;(R.id.textView)
+var textSize = textView.textSize / resources.displayMetrics.scaledDensity
+textView.textSize = textSize
+
+// button控制代码
+val button2 = findViewById&lt;Button&gt;(R.id.button2)
+button2.setOnClickListener {
+    textSize -= 1
+    textView.textSize = textSize
+}
+</code></pre>
+<h2 id="39">3.9</h2>
+<h3 id="21mtxt">加载了21M大小的三体小说txt文本后出现的问题</h3>
+<pre><code>I/stmultiactivit: Background young concurrent copying GC freed 22638(576KB) AllocSpace objects, 0(0B) LOS objects, 0% free, 21MB/21MB, paused 328us total 112.763ms
+I/Choreographer: Skipped 93 frames!  The application may be doing too much work on its main thread.
+D/EGL_emulation: eglMakeCurrent: 0xecc7f940: ver 2 0 (tinfo 0xecc89f00)
+I/Choreographer: Skipped 34 frames!  The application may be doing too much work on its main thread.
+</code></pre>
+<p>提示我们说在主线程干太多事情了，而且这样导致的问题是加载后页面会很慢，转动屏幕时的重新加载可能也是这样；</p>
+<h3 id="_2">如何分页</h3>
+<p><a href="https://developer.android.com/codelabs/android-paging-basics?hl=zh-cn#0">Android Paging 基础知识  | Android Developers</a></p>
+<p>这个教程是讲如何下拉时加载文件资源刷新显示的，并不是我们理解上的分页知识内容；还是得等学习了够多再回来看一下；</p>
+<p>在compose中可以很简单实现，用lazyRow或者lazyColumn即可，而不需要那种recycleView之类的东西</p>
+<h2 id="413">4.13</h2>
+<p>发现一个问题就是在开发的过程中，如果想去修改底层的一个ui控件（比如进行一个状态提升），由于在整个项目中都会很多地方用到这个控件，所以我们得把用到它的所有地方一一修改，不然单独测试的时候（比如希望单独运行这个小控件的preview是执行不了的，要是运行的话甚至会出现报错<code>Caused by: org.gradle.api.GradleException: Compilation error. See log for more details</code>完全摸不着头脑）:cry:</p>
+<blockquote>
+<p>PS：今天android结课了，要开始认真的开发了</p>
+</blockquote>
+<p>另外一个小tips发现，用android studio的split那个preview的功能可能会很方便地提示你哪里报错了；而直接点击绿色三角形那个东西运行之后debug的报错会让你摸不着头脑；</p>
+<p>目前问题：</p>
+<ul>
+<li>没有理解ViewModel和LiveData的知识，对数据存储方面有困难 --&gt;看完老师视频</li>
+</ul>
+<h2 id="57">5.7</h2>
+<p>更新之后的android studio无法运行旧的项目</p>
+<ul>
+<li>更新了kotlin等等一系列的版本问题</li>
+<li>可能是AVD的问题，新建了一个项目显示不支持老的版本了</li>
+<li>记得把项目中gradle jdk版本改成11以下</li>
+<li>初步学了huggingface的一系列操作，但拿到api部署到android上还暂时不知道怎么做；</li>
+<li>如果像里面文档说的那样可以有多个模型的api都可以使用那就是太好了</li>
+</ul>
+<p><img alt="image-20230508183430117" src="../%E5%BC%80%E5%8F%91%E7%BB%8F%E5%8E%86.assets/image-20230508183430117.png" /></p>
+<ul>
+<li>目前调研结果就是如果使用huggingface上的接口需要0.06$每个小时，也就是0.36￥每个小时，论开发的话得很快做完，而且用户可能得翻墙才能使用模型，不划算也不方便调试；</li>
+</ul>
+<h2 id="58">5.8</h2>
+<ul>
+<li>决定尝试一下paddlelite是否可行</li>
+</ul>
+<p>正确的clone方法，之前一直在错误的develop分支上克隆，导致错误</p>
+<pre><code class="language-bash">git clone -b master https://github.com/PaddlePaddle/Paddle-Lite-Demo.git
+</code></pre>
+<p><img alt="image-20230508173234173" src="../%E5%BC%80%E5%8F%91%E7%BB%8F%E5%8E%86.assets/image-20230508173234173.png" /></p>
+<ul>
+<li><code>couldn't find "libpaddle_lite_jni.so"</code>一直没办法解决，看了很多github上的issue，最终也没有办法解决</li>
+<li>
+<p>不可行，已有项目文件太大，自己部署起来过于麻烦；</p>
+</li>
+<li>
+<p>不知道怎么办才好，如果现在更换方向就太晚了可能，之前好的想法全都做不出来</p>
+</li>
+<li>先给自己定硬性指标，17号之前完成app的所有开发，在这之前先部署好每个小功能的应用，如果来不及就算了，18号完成报告并录制视频提交就好了</li>
+</ul>
+<p>想做一些功能小的，好用的app，不连接网络，17-8=9，也就一共九天的时间，自己很难开发出更好的app，不如从现在开始做一下小而精的app就好，做一个人工智能交互模型之前讨论过了，一是要api要花钱，在原有基础上做感觉又很难改进别人的demo，现在唯一能做的 事情感觉还是专：</p>
+<h2 id="59">5.9</h2>
+<ul>
+<li>再学习一遍ViewModelhttps://developer.android.com/codelabs/basic-android-kotlin-compose-viewmodel-and-state?hl=zh-cn#2</li>
+<li>明天规划一下就可以专门做那个app的分析了</li>
+</ul>
+<h2 id="510">5.10</h2>
+<p>完成对ViewModel的详细学习，学到了对很多状态的管理方式，然后现在的规划是做一个MVVM架构，在<code>Unscramble</code>的app中自己对ViewModel又有了新的体会，总而言之就是要理清关于ViewModel、Activity、State三个东西的关联，每个activity一定程度上都相当于一个观察者，去观察或者更改ViewModel中的数据，而State则是一个状态流，但它返回的应该是当前状态的信息，我们通过ViewModel将数据处理（或者说ViewModel中存储一部风界面UI层的数据）,然后ViewModel去更改State的值，总结如下：</p>
+<p>在Composable函数（UI层）中</p>
+<ul>
+<li>我们只能去读State的值，而不直接改，下图中我们可以看到定义的gameUiState的值都是被读入</li>
+</ul>
+<p><img alt="image-20230510154940644" src="../%E5%BC%80%E5%8F%91%E7%BB%8F%E5%8E%86.assets/image-20230510154940644.png" /></p>
+<ul>
+<li>我们通过调用ViewModel中的函数去改变State中的数据、或者界面层从数据：</li>
+</ul>
+<p><img alt="image-20230510155258859" src="../%E5%BC%80%E5%8F%91%E7%BB%8F%E5%8E%86.assets/image-20230510155258859.png" /></p>
+<p><img alt="63eff819a2c3c3f4.png" src="../%E5%BC%80%E5%8F%91%E7%BB%8F%E5%8E%86.assets/63eff819a2c3c3f4.png" /></p>
+<blockquote>
+<p>ViewModel和UI state都还是属于UI层的</p>
+</blockquote>
+<hr />
+<p>分割线更新一下当前思路：</p>
+<p>当你有一个想法的时候，不要急于想着基于所学知识马上就开始做，先去网上找类似想法的模型代码，当你找到第一个最符合你想法的模型后，赶紧clone下来跑一遍，读代码知道大概思路和所用技术之后也不要急着马上就开始做，去以这些技术的关键词继续查找有没有更加符合你想法的模型，很幸运，这样就会出现第二个第三个甚至最符合你想法的模型都有，好，事实可能证明，你的想到的大部分可能别人都想到了，只不过别人想的和自己只有一点点出入而已。总而言之，言而总之，殊途同归。站在巨人肩膀上创新必然不是蠢事。</p>
+<p>目前android希望用的技术确定下来了，mlkit jetpack compos digitalink；</p>
+<p>自己目前参考觉得最有用的github仓库：</p>
+<ul>
+<li><a href="https://developers.google.com/ml-kit/vision/digital-ink-recognition/android?hl=zh-cn">在 Android 上使用机器学习套件识别数字墨水  | ML Kit  | Google Developers</a> android自带开发文档</li>
+<li>https://github.com/mohamedtamer0/TextRecognition-MLKit-jetPackCompose 文本识别</li>
+<li>https://github.com/surajsau/ML-Android.git 输入日语</li>
+</ul>
+<h3 id="_3">选题过程</h3>
+<h4 id="pytorch">Pytorch</h4>
+<ul>
+<li><a href="https://blog.csdn.net/qq_40507857/article/details/118755061">(241条消息) 在Android设备部署PyTorch模型_android pytorch_紫芝的博客-CSDN博客</a></li>
+<li>https://github.com/pytorch/android-demo-app</li>
+</ul>
+<p>在android上装一个pytorch，无论也说服不了自己（觉得在移动端训练又或者推理都觉得过于耗费移动端有限的资源、无论从续航性能速度等等角度而言都不行），第一时间否掉了这个方案；</p>
+<h4 id="huggingface">huggingface</h4>
+<p>由于自己想着不能在手机上训练，自己短时间也训练不了很大的模型，决定采用调用api的方法：即推理过程全部跑在服务器上，而不需要耗费本地移动端的资源，这样相对好接受一点，于是就采用了huggingface</p>
+<blockquote>
+<p>huggingface介绍。。。</p>
+</blockquote>
+<p>最后没有决定使用huggingface的api，原因如下：</p>
+<ul>
+<li>huggingface的api太贵；</li>
+<li>自己上传模型之后发现推理速度也比较一般，只是CPU的API就需要使用0.06$每小时，上面一些有意思的模型，文生图，图生图，图生文，hugging自己家的chat(gpt)，又或者更惊艳一点的文字生成视频全部需要超级强的显卡算力支持，而这部分的api贵到自己一个做结课设计的大学生无法接受的程度了（觉得可能商业级的app用一下还差不多）</li>
+<li>第三，做好的app用户需要翻墙才能使用。。。（这一点不好给同学测试也不好传播）</li>
+</ul>
+<p>下面是自己调研huggingface模型部署在android端的所有教程、记录：</p>
+<ul>
+<li><a href="https://github.com/huggingface/pytorch-image-models">huggingface/pytorch-image-models: PyTorch image models, scripts, pretrained weights -- ResNet, ResNeXT, EfficientNet, EfficientNetV2, NFNet, Vision Transformer, MixNet, MobileNet-V3/V2, RegNet, DPN, CSPNet, and more (github.com)</a></li>
+<li>下面都是使用huggingface API接口开发的博客</li>
+<li><a href="https://dicksonneoh.com/portfolio/training_dl_model_for_cell_counting/">Training a Deep Learning Model for Cell Counting in 17 Lines of Code with 17 Images (dicksonneoh.com)</a></li>
+<li><a href="https://dicksonneoh.com/portfolio/bringing_high_quality_image_models_to_mobile/">Bringing High-Quality Image Models to Mobile: Hugging Face TIMM Meets Android &amp; iOS (dicksonneoh.com)</a></li>
+<li><a href="https://dicksonneoh.com/portfolio/deploy_icevision_models_on_huggingface_spaces/">Deploying Object Detection Models on Hugging Face Spaces (dicksonneoh.com)</a></li>
+<li><a href="https://dicksonneoh.com/portfolio/how_to_deploy_od_models_on_android_with_flutter/">How to Deploy Object Detection Models on Android with Flutter (dicksonneoh.com)</a></li>
+<li>huggingface app部署教程</li>
+<li><a href="https://www.youtube.com/watch?v=3bSVKNKb_PY&amp;ab_channel=HuggingFace">Build and Deploy a Machine Learning App in 2 Minutes - YouTube</a></li>
+</ul>
+<h4 id="paddlelite">PaddleLite</h4>
+<p>既然国外的太贵，不符合自己需求那就采用国内的产品PaddleLite</p>
+<blockquote>
+<p>PaddleLite是百度家的人工智能部署在android上的库</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/PaddlePaddle/Paddle-Lite-Demo/tree/master/PaddleLite-android-demo">Paddle-Lite-Demo/PaddleLite-android-demo at master · PaddlePaddle/Paddle-Lite-Demo · GitHub</a></li>
+<li><a href="https://github.com/PaddlePaddle/Paddle-Lite-Demo/tree/master">PaddlePaddle/Paddle-Lite-Demo at master (github.com)</a></li>
+<li>上面的中文博客也是最多的（csdn上）：</li>
+<li><a href="https://blog.csdn.net/m0_58772523/article/details/121890631">(241条消息) 超最简单的安卓端深度学习模型部署教程——pytorch2onnx2pdinfer2android_不变强不改名的博客-CSDN博客</a></li>
+</ul>
+<p>最后没有采用。</p>
+<blockquote>
+<p>在paddleLite介绍最详细的一个示例image_classification的demo中，自己按照官方的教程去一步一步配置了，最后卡死在一个bug上，去查github上别人的issue，发现一样的问题在2020就被提出了，2021有人问了一遍，2022又有人问了一遍，没人解决，自己有点绝望，不采用他们的架构，感觉社区没人维护，案例不及时更新；</p>
+</blockquote>
+<h4 id="ml-kit">ML Kit</h4>
+<p>ML Kit是android开发官方指定的机器学习套件，上面的案例每个都是可以直接运行，没有报错（主要是社区很完善） ，最后决定做一个小的输入法的app</p>
+<h2 id="511">5.11</h2>
+<p>实现简单画图功能：</p>
+<p><img alt="GIF" src="../%E5%BC%80%E5%8F%91%E7%BB%8F%E5%8E%86.assets/GIF.gif" /></p>
+<blockquote>
+<p>我们可以看到上面会从左上角直接画到董字的开头，在真机上测试过之后发现这个问题其实是由于AVD虚拟机响应太慢了才会出现的，在真机上只有一直不间断点reset刷新、一边画画才会出现上面的状况，这其实我们下面代码中的作用：</p>
+</blockquote>
+<pre><code class="language-kotlin">prevX = when (drawPath) {  // 获取上一个点的横坐标
+    is DrawPath.MoveTo -&gt; (drawPath as DrawPath.MoveTo).x
+    is DrawPath.CurveTo -&gt; (drawPath as DrawPath.CurveTo).x
+    else -&gt; 0f
+}
+
+prevY = when (drawPath) {  // 获取上一个点的纵坐标
+    is DrawPath.MoveTo -&gt; (drawPath as DrawPath.MoveTo).y
+    is DrawPath.CurveTo -&gt; (drawPath as DrawPath.CurveTo).y
+    else -&gt; 0f
+}
+</code></pre>
+<p>在实现drawPath什么都没有或者由于程序运行反应不过来的时候会出现<code>else</code>中的情况，就会导致两个都设为preX和preY均设置为0f，这样就会出现上面问题，再一般情况下的手写输入不会出现上面问题；</p>
+<h2 id="512513">5.12~5.13</h2>
+<p>试了很多错，现在问题是下载模型的时候报错了，再仔细看看是什么地方出错；</p>
+<pre><code>Error while downloading the model: java.lang.Exception: java.util.concurrent.ExecutionException: com.google.android.gms.internal.mlkit_vision_digital_ink.zzv: Failed to download file group zxx-Zsye-x-emoji
+                                                                                                    2 failure(s) in total:
+
+                                                                                                    --- Failure 1 ----------------------------
+                                                                                                    com.google.android.gms.internal.mlkit_vision_digital_ink.zzbj: REQUEST_ERROR Message: java.net.SocketException: socket failed: EPERM (Operation not permitted);
+                                                                                                    Caused by: com.google.android.gms.internal.mlkit_vision_digital_ink.zzxr: java.net.SocketException: socket failed: EPERM (Operation not permitted)
+                                                                                                    Caused by: java.net.SocketException: socket failed: EPERM (Operation not permitted)
+                                                                                                    --- Failure 2 ----------------------------
+                                                                                                    com.google.android.gms.internal.mlkit_vision_digital_ink.zzbj: REQUEST_ERROR Message: java.net.SocketException: socket failed: EPERM (Operation not permitted);
+                                                                                                    Caused by: com.google.android.gms.internal.mlkit_vision_digital_ink.zzxr: java.net.SocketException: socket failed: EPERM (Operation not permitted)
+                                                                                                    Caused by: java.net.SocketException: socket failed: EPERM (Operation not permitted)
+                                                                                                    -------------------------------------------
+</code></pre>
+<p>从网络下载模型记得添加：</p>
+<pre><code>&lt;!-- For downloading --&gt;
+&lt;uses-permission android:name=&quot;android.permission.INTERNET&quot; /&gt;
+&lt;uses-permission android:name=&quot;android.permission.ACCESS_NETWORK_STATE&quot; /&gt;
+</code></pre>
+<p>加完之后记得删除原来在AVD上app再重新安装过</p>
+<h2 id="514">5.14</h2>
+<p>早上九点前开发进度</p>
+<p><img alt="GIF" src="../%E5%BC%80%E5%8F%91%E7%BB%8F%E5%8E%86.assets/GIF-16840258203361.gif" /></p>
+<p>基本开发功能已经实现</p>
+<ul>
+<li>在屏幕上画画</li>
+<li>实时获得笔画信息</li>
+<li>成功下载预测模型</li>
+<li>预测识别字体并返回</li>
+</ul>
+<p>但其中出现的bug也不少：</p>
+<ul>
+<li>每次写完之后不会自动清除</li>
+<li>每写完一个字之后才显示上一个字的识别情况，这不符合用户习惯</li>
+</ul>
+<blockquote>
+<p>上面两点很有可能是viewModel的状态没有及时更新的状况才会出现的</p>
+</blockquote>
+<ul>
+<li>选择一个输入之后到上面文本框之后再手写输入就会全部清空</li>
+</ul>
+<blockquote>
+<p>这个得回去看逻辑</p>
+</blockquote>
+<ul>
+<li>改掉一输入完毕就清空的bug</li>
+<li>还有对于emoji来说结果不好</li>
+<li>应该是没有及时清空ink.builder</li>
+</ul>
+<blockquote>
+<p>上面问题解决了，问题是因为对状态_uiState的管理不对，中途更新了状态</p>
+</blockquote>
+<ul>
+<li>现在还是有一个问题，输出的识别预测列表和手写输入会差一个延迟（写入下一个字才显示上一个字的预测结果）</li>
+<li>应该是触发更新的问题，自己目前是当手指离开页面并过1s后开始预测列表 </li>
+<li>但有可能更改完毕后没有刷新页面，等到手指再次离开才刷新，状态才得以返回</li>
+</ul>
+<blockquote>
+<p>解决这一问题了，原理就是在加载预测列表的时候要异步执行，而且得等待预测执行完之后再返回状态</p>
+</blockquote>
+<ul>
+<li>可以考虑作成输入法app，支持悬浮控件一起？</li>
+<li>和其它app在一起结合使用</li>
+</ul>
+<blockquote>
+<p>这个问题目前还不能解决，需要获得系统的权限，而且目前手机都是自带的输入法app，要获得更高的权限可能得涉及到不同手机的操作权限问题，有点难做，先做其它的；</p>
+</blockquote>
+<h2 id="515">5.15</h2>
+<ul>
+<li>将底层栏全部去除，添加一些关于模型下载的状态处理，目前app的开发效果展示如下：</li>
+</ul>
+<p><img alt="GIF" src="../%E5%BC%80%E5%8F%91%E7%BB%8F%E5%8E%86.assets/GIF-16841389107981.gif" /></p>
+<p>查了一下能否做成插件的情况，微信的有自己的接口和开发文档，在官方文档看到这句话：</p>
+<blockquote>
+<p>请到 开发者应用登记页面 进行登记，登记并选择移动应用进行设置后，将该应用提交审核，只有审核通过的应用才能进行开发。</p>
+</blockquote>
+<p>只有后面才考虑能不能做了，结课设计这周就必须提交了，做成微信插件等之后有时间再做吧~🔗如下。</p>
+<p><a href="https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/Android.html">Android接入指南 | 微信开放文档 (qq.com)</a></p>
+<p>在这里感觉也可以集成到华为手机输入法中的插件中去，更方便查找表情包；</p>
+<h2 id="516">5.16</h2>
+<ul>
+<li>完善模型选择功能</li>
+<li>先考虑一下能不能做成数据库的形式（使用ROOM等形式）</li>
+<li>如果不能，那么应该如何实现搜索模型的功能（字段匹配没有试过）</li>
+<li>设置一个用户偏好界面</li>
+<li>里面出现可以勾选的一些text</li>
+<li>来让用户自动调整是否显示底边栏</li>
+</ul>
+<blockquote>
+<p>上面的也完成了，剩下要做的事情就是如何改掉最后一个bug</p>
+</blockquote>
+<ul>
+<li>正确的清理方法可能还是和那个页面刷新的机制有关</li>
+<li>准备删掉之后又马上被设置了回来所以导致报错可能</li>
+<li>删的时候不能一直刷新页面</li>
+</ul>
+<blockquote>
+<p>上面问题解决，我们应该将请求发到remoteManager添加到一个TASK队列里面去，处理完一个删除的任务再处理另一个，如果采用for循环的形式由viewModel直接调用的话则会删除失败，或者只删除一个模型</p>
+</blockquote>
+<ul>
+<li>添加保存数据的代码，记录用户的preference</li>
+</ul>
+<blockquote>
+<p>上面问题完成</p>
+</blockquote>
+<h2 id="517">5.17</h2>
+<ul>
+<li>为app添加图标</li>
+</ul>
+<blockquote>
+<p>记住一定要在AVD上跑一遍更换图标后的应用之后再build APKs，不然图标得不到更新</p>
+<p>另外有一个bug就是当利用电脑端QQ发送安装包给手机端下载的时候，QQ会自动索引到该文件夹，再关闭QQ之前无法在android studio运行项目，提示无法删除apk，事实就是QQ上传文件的时候获得文件的管理权限，android studio运行项目每次跑一次都会清除旧的apk，如果无法删除则报错，此时就关闭QQ即可。</p>
+</blockquote>
+<h2 id="_4">接下来要做的事情</h2>
+<ul>
+<li>完成app设计，提交报告，录制一个简单的介绍视频</li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
