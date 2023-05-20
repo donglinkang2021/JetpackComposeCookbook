@@ -6,17 +6,17 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="linkdom" name="author"/>
-<link href="https://donglinkang2021.github.io/JetpackComposeCookbook/Compose/%E5%9F%BA%E6%9C%AC%E6%8E%A7%E4%BB%B6/TextField/" rel="canonical"/>
-<link href="../../../assets/images/favicon.png" rel="icon"/>
+<link href="https://donglinkang2021.github.io/JetpackComposeCookbook/tmp/" rel="canonical"/>
+<link href="../assets/images/favicon.png" rel="icon"/>
 <meta content="mkdocs-1.3.1, mkdocs-material-8.5.2" name="generator"/>
-<title>TextField - Jetpack Compose Cookbook📚</title>
-<link href="../../../assets/stylesheets/main.9f9400aa.min.css" rel="stylesheet"/>
-<link href="../../../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
+<title>Tmp - Jetpack Compose Cookbook📚</title>
+<link href="../assets/stylesheets/main.9f9400aa.min.css" rel="stylesheet"/>
+<link href="../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
 <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
-<link href="../../../mkdocs/css/unordered-list-symbols.css" rel="stylesheet"/>
-<script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<link href="../mkdocs/css/unordered-list-symbols.css" rel="stylesheet"/>
+<script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
 </head>
 <body data-md-color-accent="orange" data-md-color-primary="indigo" data-md-color-scheme="default" dir="ltr">
 <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
@@ -24,15 +24,12 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#textfield">
-          跳转至
-        </a>
 </div>
 <div data-md-component="announce">
 </div>
 <header class="md-header" data-md-component="header">
 <nav aria-label="页眉" class="md-header__inner md-grid">
-<a aria-label="Jetpack Compose Cookbook📚" class="md-header__button md-logo" data-md-component="logo" href="../../.." title="Jetpack Compose Cookbook📚">
+<a aria-label="Jetpack Compose Cookbook📚" class="md-header__button md-logo" data-md-component="logo" href=".." title="Jetpack Compose Cookbook📚">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
 </a>
 <label class="md-header__button md-icon" for="__drawer">
@@ -48,7 +45,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              TextField
+              Tmp
             
           </span>
 </div>
@@ -112,27 +109,27 @@
 <div class="md-tabs__inner md-grid">
 <ul class="md-tabs__list">
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../..">
+<a class="md-tabs__link" href="..">
       Jetpack Compose Cookbook📚
     </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../../tmp/">
+<a class="md-tabs__link md-tabs__link--active" href="./">
       Tmp
     </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link md-tabs__link--active" href="../Card/">
+<a class="md-tabs__link" href="../Compose/%E5%9F%BA%E6%9C%AC%E6%8E%A7%E4%BB%B6/Card/">
         Compose
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../../DailyNote/%E5%BC%80%E5%8F%91%E7%BB%8F%E5%8E%86/">
+<a class="md-tabs__link" href="../DailyNote/%E5%BC%80%E5%8F%91%E7%BB%8F%E5%8E%86/">
         DailyNote
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../../askGPT/%E5%8D%8F%E7%A8%8B%E5%8A%A0%E8%BD%BD%E6%96%87%E4%BB%B6/">
+<a class="md-tabs__link" href="../askGPT/%E5%8D%8F%E7%A8%8B%E5%8A%A0%E8%BD%BD%E6%96%87%E4%BB%B6/">
         askGPT
       </a>
 </li>
@@ -146,7 +143,7 @@
 <div class="md-sidebar__inner">
 <nav aria-label="导航栏" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
 <label class="md-nav__title" for="__drawer">
-<a aria-label="Jetpack Compose Cookbook📚" class="md-nav__button md-logo" data-md-component="logo" href="../../.." title="Jetpack Compose Cookbook📚">
+<a aria-label="Jetpack Compose Cookbook📚" class="md-nav__button md-logo" data-md-component="logo" href=".." title="Jetpack Compose Cookbook📚">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
 </a>
     Jetpack Compose Cookbook📚
@@ -163,17 +160,18 @@
 </div>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../..">
+<a class="md-nav__link" href="..">
         Jetpack Compose Cookbook📚
       </a>
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../tmp/">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<a class="md-nav__link md-nav__link--active" href="./">
         Tmp
       </a>
 </li>
-<li class="md-nav__item md-nav__item--active md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
+<li class="md-nav__item md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
 <label class="md-nav__link" for="__nav_3">
           Compose
           <span class="md-nav__icon md-icon"></span>
@@ -184,8 +182,8 @@
           Compose
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" id="__nav_3_1" type="checkbox"/>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3_1" id="__nav_3_1" type="checkbox"/>
 <label class="md-nav__link" for="__nav_3_1">
           基本控件
           <span class="md-nav__icon md-icon"></span>
@@ -197,43 +195,42 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../Card/">
+<a class="md-nav__link" href="../Compose/%E5%9F%BA%E6%9C%AC%E6%8E%A7%E4%BB%B6/Card/">
         Card
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../Column/">
+<a class="md-nav__link" href="../Compose/%E5%9F%BA%E6%9C%AC%E6%8E%A7%E4%BB%B6/Column/">
         Column
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../Image/">
+<a class="md-nav__link" href="../Compose/%E5%9F%BA%E6%9C%AC%E6%8E%A7%E4%BB%B6/Image/">
         Image
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../LazyColumn/">
+<a class="md-nav__link" href="../Compose/%E5%9F%BA%E6%9C%AC%E6%8E%A7%E4%BB%B6/LazyColumn/">
         LazyColumn
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../Spacer/">
+<a class="md-nav__link" href="../Compose/%E5%9F%BA%E6%9C%AC%E6%8E%A7%E4%BB%B6/Spacer/">
         Spacer
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../Surface/">
+<a class="md-nav__link" href="../Compose/%E5%9F%BA%E6%9C%AC%E6%8E%A7%E4%BB%B6/Surface/">
         Surface
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../Text/">
+<a class="md-nav__link" href="../Compose/%E5%9F%BA%E6%9C%AC%E6%8E%A7%E4%BB%B6/Text/">
         Text
       </a>
 </li>
-<li class="md-nav__item md-nav__item--active">
-<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
-<a class="md-nav__link md-nav__link--active" href="./">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Compose/%E5%9F%BA%E6%9C%AC%E6%8E%A7%E4%BB%B6/TextField/">
         TextField
       </a>
 </li>
@@ -253,7 +250,7 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../%E5%AE%8C%E6%95%B4demo/%E5%8D%8F%E7%A8%8B%E8%AF%BB%E5%8F%96%E6%96%87%E4%BB%B6/">
+<a class="md-nav__link" href="../Compose/%E5%AE%8C%E6%95%B4demo/%E5%8D%8F%E7%A8%8B%E8%AF%BB%E5%8F%96%E6%96%87%E4%BB%B6/">
         协程读取文件
       </a>
 </li>
@@ -273,32 +270,32 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B6/Align/">
+<a class="md-nav__link" href="../Compose/%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B6/Align/">
         Alignment
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B6/AlignRow/">
+<a class="md-nav__link" href="../Compose/%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B6/AlignRow/">
         AlignRow
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B6/CollectionGrid/">
+<a class="md-nav__link" href="../Compose/%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B6/CollectionGrid/">
         CollectionGrid
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B6/FavouriteCollectionCard/">
+<a class="md-nav__link" href="../Compose/%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B6/FavouriteCollectionCard/">
         Favorite Collection Card
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B6/Scaffold/">
+<a class="md-nav__link" href="../Compose/%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B6/Scaffold/">
         Scaffold
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B6/SearchBar/">
+<a class="md-nav__link" href="../Compose/%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B6/SearchBar/">
         SearchBar
       </a>
 </li>
@@ -318,37 +315,37 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B62/">
+<a class="md-nav__link" href="../Compose/%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B62/">
         README
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B62/AlertButton/">
+<a class="md-nav__link" href="../Compose/%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B62/AlertButton/">
         AlertButton
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B62/CheckItem/">
+<a class="md-nav__link" href="../Compose/%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B62/CheckItem/">
         CheckItem
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B62/PredictionList/">
+<a class="md-nav__link" href="../Compose/%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B62/PredictionList/">
         PredictionList
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B62/PreferScreen/">
+<a class="md-nav__link" href="../Compose/%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B62/PreferScreen/">
         PreferScreen
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B62/SearchBar/">
+<a class="md-nav__link" href="../Compose/%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B62/SearchBar/">
         SearchBar
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B62/TopBar/">
+<a class="md-nav__link" href="../Compose/%E5%AE%9E%E7%94%A8%E6%8E%A7%E4%BB%B62/TopBar/">
         TopBar
       </a>
 </li>
@@ -368,12 +365,12 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../%E6%B3%A8%E6%84%8F/Activity/">
+<a class="md-nav__link" href="../Compose/%E6%B3%A8%E6%84%8F/Activity/">
         Activity
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../%E6%B3%A8%E6%84%8F/%E8%BF%9E%E6%8E%A5%E7%BD%91%E7%BB%9C/">
+<a class="md-nav__link" href="../Compose/%E6%B3%A8%E6%84%8F/%E8%BF%9E%E6%8E%A5%E7%BD%91%E7%BB%9C/">
         连接网络
       </a>
 </li>
@@ -393,47 +390,47 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Animation/">
+<a class="md-nav__link" href="../Compose/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Animation/">
         Animation
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/DataStore/">
+<a class="md-nav__link" href="../Compose/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/DataStore/">
         datastore
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Hilt/">
+<a class="md-nav__link" href="../Compose/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Hilt/">
         Hilt
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Modifier/">
+<a class="md-nav__link" href="../Compose/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Modifier/">
         Modifier
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Preview/">
+<a class="md-nav__link" href="../Compose/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/Preview/">
         Preview
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/ViewModel/">
+<a class="md-nav__link" href="../Compose/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/ViewModel/">
         ViewModel
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/by/">
+<a class="md-nav__link" href="../Compose/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/by/">
         by
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/remember/">
+<a class="md-nav__link" href="../Compose/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/remember/">
         remember
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/%E5%BF%AB%E6%8D%B7%E9%94%AE/">
+<a class="md-nav__link" href="../Compose/%E7%BC%96%E7%A8%8B%E6%8A%80%E6%9C%AF/%E5%BF%AB%E6%8D%B7%E9%94%AE/">
         快捷键
       </a>
 </li>
@@ -456,7 +453,7 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../DailyNote/%E5%BC%80%E5%8F%91%E7%BB%8F%E5%8E%86/">
+<a class="md-nav__link" href="../DailyNote/%E5%BC%80%E5%8F%91%E7%BB%8F%E5%8E%86/">
         开发经历
       </a>
 </li>
@@ -476,7 +473,7 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../askGPT/%E5%8D%8F%E7%A8%8B%E5%8A%A0%E8%BD%BD%E6%96%87%E4%BB%B6/">
+<a class="md-nav__link" href="../askGPT/%E5%8D%8F%E7%A8%8B%E5%8A%A0%E8%BD%BD%E6%96%87%E4%BB%B6/">
         协程加载文件
       </a>
 </li>
@@ -498,29 +495,28 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<a class="md-content__button md-icon" href="https://github.com/donglinkang2021/JetpackComposeCookbook/edit/main/docs/Compose/基本控件/TextField.md" title="编辑此页">
+<a class="md-content__button md-icon" href="https://github.com/donglinkang2021/JetpackComposeCookbook/edit/main/docs/tmp.md" title="编辑此页">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"></path></svg>
 </a>
-<h1 id="textfield">TextField</h1>
-<pre><code class="language-kotlin">@Composable
-fun MySecondScreen() {
-    ...
-    val userInput = remember {
-        mutableStateOf("")
-    }
+<h1>Tmp</h1>
+<pre><code class="language-kotlin">    // 查询包含query的语言标签的ModelContainer
+    fun getModelContainer(
+        query: String
+    ): MutableList&lt;ModelLanguageContainer&gt; {
+        if (query.isEmpty()) {
+            return getAllModelContainer()
+        }else if (query == "请搜索并选择你需要的模型") {
+            return getAllModelContainer()
+        }
 
-    Column(
-        ...
-    ) {
-        ...
-        TextField(
-            value = userInput.value,
-            onValueChange = { userInput.value = it },
-            placeholder = { Text(text = stringResource(id = R.string.input_info)) }
-        )
-       ...
+        val languageAdapter: MutableList&lt;ModelLanguageContainer&gt; = ArrayList()
+        for ( modelContainer in getAllModelContainer()) {
+            if (modelContainer.toString().contains(query) || modelContainer.languageTag == null) {
+                languageAdapter.add(modelContainer)
+            }
+        }
+        return languageAdapter
     }
-}
 </code></pre>
 </article>
 </div>
@@ -532,7 +528,7 @@ fun MySecondScreen() {
 </main>
 <footer class="md-footer">
 <nav aria-label="页脚" class="md-footer__inner md-grid">
-<a aria-label="上一页: Text" class="md-footer__link md-footer__link--prev" href="../Text/" rel="prev">
+<a aria-label="上一页: Jetpack Compose Cookbook📚" class="md-footer__link md-footer__link--prev" href=".." rel="prev">
 <div class="md-footer__button md-icon">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
 </div>
@@ -541,17 +537,17 @@ fun MySecondScreen() {
 <span class="md-footer__direction">
                 上一页
               </span>
-              Text
+              Jetpack Compose Cookbook📚
             </div>
 </div>
 </a>
-<a aria-label="下一页: 协程读取文件" class="md-footer__link md-footer__link--next" href="../../%E5%AE%8C%E6%95%B4demo/%E5%8D%8F%E7%A8%8B%E8%AF%BB%E5%8F%96%E6%96%87%E4%BB%B6/" rel="next">
+<a aria-label="下一页: Card" class="md-footer__link md-footer__link--next" href="../Compose/%E5%9F%BA%E6%9C%AC%E6%8E%A7%E4%BB%B6/Card/" rel="next">
 <div class="md-footer__title">
 <div class="md-ellipsis">
 <span class="md-footer__direction">
                 下一页
               </span>
-              协程读取文件
+              Card
             </div>
 </div>
 <div class="md-footer__button md-icon">
@@ -590,9 +586,9 @@ fun MySecondScreen() {
 <div class="md-dialog" data-md-component="dialog">
 <div class="md-dialog__inner md-typeset"></div>
 </div>
-<script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.tabs", "navigation.top", "navigation.tracking", "navigation.index", "navigation.expand", "navigation.sections", "search.suggest", "search.highlight"], "search": "../../../assets/javascripts/workers/search.ecf98df9.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\s\\-\uff0c\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version.title": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
-<script src="../../../assets/javascripts/bundle.39f04ddb.min.js"></script>
-<script src="../../../mkdocs/javascripts/mathjax.js"></script>
+<script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tabs", "navigation.top", "navigation.tracking", "navigation.index", "navigation.expand", "navigation.sections", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.ecf98df9.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\s\\-\uff0c\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version.title": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+<script src="../assets/javascripts/bundle.39f04ddb.min.js"></script>
+<script src="../mkdocs/javascripts/mathjax.js"></script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
